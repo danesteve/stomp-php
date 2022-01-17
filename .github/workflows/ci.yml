@@ -1,5 +1,5 @@
 name: CI
-on: [pull, pull_request]
+on: [push, pull_request]
 jobs:
   static_analysis:
     name: Static analysis with phpstan
